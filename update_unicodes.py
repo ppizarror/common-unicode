@@ -18,7 +18,7 @@ for j in myunicodes.split('\n'):
 	else:
 		print(f'Error, {kcode} repeated')
 	char = chr(int(f'0x{kcode}', 16))
-	kcode = '\\href{https://www.compart.com/en/unicode/U+' + kcode + '}{U+' +kcode + '}' 
+	kcode = '\\href{https://decodeunicode.org/en/u+' + kcode + '}{U+' +kcode + '}' 
 	f.write(f'\t\\item {kcode}: {char}\n')
 f.write('\end{itemize}')
 f.close()
