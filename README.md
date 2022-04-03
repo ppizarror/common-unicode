@@ -5,4 +5,4 @@ A latex package that contains a list of the common unicode symbols, which lets t
 Author
 ------
 
-`Pablo Pizarro R. <https://ppizarror.com>`_ | 2021 - 2022
+[Pablo Pizarro R.](https://ppizarror.com) | 2022
